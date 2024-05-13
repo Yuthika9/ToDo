@@ -51,7 +51,7 @@ function ToDoList(){
                 </ul>
             }
 
-            <button className="remove-completed-button" onClick={handleRemoveCompletedClick}>Remove Completed</button>
+            <button data-testid = "remove" className="remove-completed-button" onClick={handleRemoveCompletedClick}>Remove Completed</button>
         </div>
     );
      
